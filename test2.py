@@ -17,22 +17,28 @@ print(len(pencil_case))
 ride_count = 0
 friends = []
 
+friend = {}
 print("お友達のお名前は？")
-friends.append(input())
+friend["name"] = input()
 print("お友達の身長は？")
-friends.append(int(input()))
+friend["height"] = int(input())
+friends.append(friend)
 ride_count += 1
 
+friend = {}
 print("お友達のお名前は？")
-friends.append(input())
+friend["name"] = input()
 print("お友達の身長は？")
-friends.append(int(input()))
+friend["height"] = int(input())
+friends.append(friend)
 ride_count += 1
 
+friend = {}
 print("お友達のお名前は？")
-friends.append(input())
+friend["name"] = input()
 print("お友達の身長は？")
-friends.append(int(input()))
+friend["height"] = int(input())
+friends.append(friend)
 ride_count += 1
 
 print(f"乗車するのは{ride_count}人です")
