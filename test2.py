@@ -13,3 +13,26 @@ print(pencil_case)
 pencil_case.append("筆箱")
 print(pencil_case)
 print(len(pencil_case))
+
+ride_count = 0
+friends = []
+
+print("お友達のお名前は？")
+friends.append(input())
+print("お友達の身長は？")
+friends.append(int(input()))
+ride_count += 1
+
+print("お友達のお名前は？")
+friends.append(input())
+print("お友達の身長は？")
+friends.append(int(input()))
+ride_count += 1
+
+print("お友達のお名前は？")
+friends.append(input())
+print("お友達の身長は？")
+friends.append(int(input()))
+ride_count += 1
+
+print(f"乗車するのは{ride_count}人です")
